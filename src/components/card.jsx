@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './card.css';
-import './card.jsx';
 
 const Cards = () => {
   const [books, setBooks] = useState([]);
