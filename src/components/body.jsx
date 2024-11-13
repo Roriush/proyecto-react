@@ -14,7 +14,7 @@ const Body = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const response = await fetch(API_URL);
+                const response = await fetch("https://6701aea0b52042b542d85885.mockapi.io/LIBROS");
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
