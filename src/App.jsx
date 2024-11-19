@@ -8,16 +8,17 @@ import './components/header';
 import './components/footer';
 import   './components/body';
 import Home from './pages/home';
+import Layout from './components/layout'
 
 const App = () => {
   return (
     <Router>
-      <div className="container">
+      <Layout>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </div>
+      </Layout>
     </Router>
   );
 };

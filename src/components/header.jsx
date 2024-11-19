@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
-
+const Header = () => {
+  return (
 <nav className="navbar navbar-expand-lg bg-body-secondary">
   <div className ="container-fluid">
     <a className="navbar-brand" href="#">BLEU EDICIONES</a>
@@ -23,3 +24,7 @@ import { Link } from "react-router-dom";
     </div>
   </div>
 </nav>
+  )
+}
+
+export default Header;

@@ -1,7 +1,5 @@
 import React from 'react'
-import Body from '../components/body';
-import Cards from './card.jsx';
-import Cards from  './card.css';
+import Cards from '../components/card.jsx';
 
 const Home = () => {
   return (
