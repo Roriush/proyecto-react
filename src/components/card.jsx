@@ -10,7 +10,7 @@ const Cards = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await axios.get('https://6701aea0b52042b542d85885.mockapi.io/LIBROS', {
+        const response = await axios.get('https://6701aea0b52042b542d85885.mockapi.io/LIBROS01', {
           headers: {
             'Authorization': 'Bearer 6701aea0b52042b542d85885'
           }

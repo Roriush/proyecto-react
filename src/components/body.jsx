@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from './card';
 
 
-const API_URL = 'https://6701aea0b52042b542d85885.mockapi.io/LIBROS';
+const API_URL = 'https://6701aea0b52042b542d85885.mockapi.io/LIBROS01';
 
 
 const Body = () => {
@@ -14,7 +14,7 @@ const Body = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             try {
-                const response = await fetch("https://6701aea0b52042b542d85885.mockapi.io/LIBROS");
+                const response = await fetch("https://6701aea0b52042b542d85885.mockapi.io/LIBROS01");
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
