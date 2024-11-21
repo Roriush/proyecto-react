@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from '../components/card.jsx';
+import Cards from '../Components/Card.jsx';
 
 const Home = () => {
   return (

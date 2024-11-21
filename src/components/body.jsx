@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Card from './card';
+import Card from './Card';
 
 
 const API_URL = 'https://6701aea0b52042b542d85885.mockapi.io/LIBROS01';
