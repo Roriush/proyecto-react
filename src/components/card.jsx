@@ -15,6 +15,9 @@ const Cards = () => {
             'Authorization': 'Bearer 6701aea0b52042b542d85885'
           }
         });
+
+        console.log (response.data);
+
         setBooks(response.data);
       } catch (err) {
         setError(err.message);
@@ -33,11 +36,11 @@ const Cards = () => {
     <div className="cards-container">
       {books.map((book) => (
         <div className="card" key={book.id}>
-          <img src={book.image} alt={book.name} className="card-image" />
+          <img src={book.Image} alt={book.Name} className="card-image" />
           <div className="card-content">
-            <h3 className="card-title">{book.name}</h3>
-            <p className="card-author">Author: {book.author}</p>
-            <p className="card-price">Price: ${book.price}</p>
+            <h3 className="card-title">{book.Title}</h3>
+            <p className="card-autor">Autor: {book.Autor}</p>
+            <p className="card-price">Price: ${book.Price}</p>
           </div>
         </div>
       ))}
